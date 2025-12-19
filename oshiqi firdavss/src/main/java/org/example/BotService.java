@@ -1548,7 +1548,7 @@ public class BotService extends TelegramLongPollingBot {
                             sendMessage(userId, "❌ Yuk e'loningiz topilmadi. Iltimos, qayta e'lon bering.");
                         }
                     }
-                }
+                }//Yuk bot
             } else if ("telegram_reklama".equals(type)) {
                 sendMessage(userId, "✅ To'lovingiz tasdiqlandi! Telegram reklama paketingiz faollashtirildi Asosiy gruh @Yuklar_bormi.");
                 sendMessage(adminId, "✅ Telegram reklama tasdiqlandi! Foydalanuvchi: " + userId);

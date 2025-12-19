@@ -41,5 +41,6 @@ public class Main {
             System.err.println("❌ Umumiy xatolik: " + e.getMessage());
             e.printStackTrace();
         }
+
     }
 }
