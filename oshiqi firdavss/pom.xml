@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- Asosiy Telegram kutubxonalari -->
+
         <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>

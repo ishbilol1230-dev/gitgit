@@ -197,7 +197,7 @@ public class BotService extends TelegramLongPollingBot {
             TelegramGroup mainGroup = new TelegramGroup();
             mainGroup.groupId = MAIN_GROUP_ID;
             mainGroup.name = "@Lagistika_Botlar";
-            mainGroup.link = "https://t.me/lagistika_botlar";
+            mainGroup.link = "@lagistika_botlar";
             groups.add(mainGroup);
 
             // Bazadan qolgan guruhlarni yuklaymiz

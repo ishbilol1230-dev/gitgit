@@ -17,7 +17,7 @@ public class Main {
             botsApi.registerBot(bot);
 
             System.out.println("✅ Bot muvaffaqiyatli ishga tushirildi!");
-            System.out.println("🤖 Bot username: " + bot.getBotUsername());
+            System.out.println("🤖 Bot firdav username: " + bot.getBotUsername());
             System.out.println("📊 To'lov tizimi holati: " + (bot.getClass().getDeclaredField("paymentSystemEnabled") != null ?
                     "Mavjud" : "Mavjud emas"));
 
